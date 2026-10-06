@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lines>
+  <line>
+    <lineNo>1</lineNo>
+    <sku>WIDGET-A</sku>
+    <qty>2</qty>
+    <amount>19.99</amount>
+  </line>
+  <line>
+    <lineNo>2</lineNo>
+    <sku>WIDGET-B</sku>
+    <qty>0</qty>
+    <amount>5.00</amount>
+  </line>
+  <line>
+    <lineNo>3</lineNo>
+    <sku>WIDGET-C</sku>
+    <qty>3</qty>
+    <amount>12.50</amount>
+    <flag>SKIP</flag>
+  </line>
+</lines>

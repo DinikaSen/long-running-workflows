@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+
+  <xs:element name="lines">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="line" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="lineNo" type="xs:int"/>
+              <xs:element name="sku" type="xs:string"/>
+              <xs:element name="qty" type="xs:int"/>
+              <xs:element name="amount" type="xs:decimal"/>
+              <xs:element name="flag" type="xs:string" minOccurs="0"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

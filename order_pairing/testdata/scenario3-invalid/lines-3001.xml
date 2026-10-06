@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lines>
+  <line>
+    <lineNo>1</lineNo>
+    <sku>WIDGET-A</sku>
+    <qty>1</qty>
+    <amount>-5</amount>
+  </line>
+  <line>
+    <lineNo>2</lineNo>
+    <sku>WIDGET-B</sku>
+    <qty>4</qty>
+    <amount>8.25</amount>
+  </line>
+</lines>

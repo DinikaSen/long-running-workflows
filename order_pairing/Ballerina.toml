@@ -1,0 +1,9 @@
+[package]
+org = "dinika"
+name = "order_pairing"
+version = "0.1.0"
+distribution = "2201.13.6"
+title = "order-pairing"
+
+[build-options]
+sticky = true

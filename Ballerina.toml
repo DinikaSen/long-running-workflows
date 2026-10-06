@@ -1,0 +1,3 @@
+[workspace]
+title = "Default"
+packages = ["order_pairing"]
